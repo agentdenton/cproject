@@ -21,4 +21,4 @@ $(TARGET): $(objects)
 clean:
 	rm -rf $(objects) $(TARGET)
 
-.PHONY clean
+.PHONY: clean

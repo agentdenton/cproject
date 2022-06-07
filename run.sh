@@ -14,3 +14,5 @@ sed -i "1s/^/$target\n\n/" .gitignore
 
 rm -rf $0
 rm -rf .git
+
+git init
