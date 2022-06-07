@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Please provide the name of the TARGET"
+echo -n "Please provide the name of the TARGET: "
 read target
 if [[ -z $target ]]; then
   echo "ERROR: Please provide proper TARGET value"
