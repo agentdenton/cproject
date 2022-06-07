@@ -14,5 +14,6 @@ sed -i "1s/^/$target\n\n/" .gitignore
 
 rm -rf $0
 rm -rf .git
+echo "# README" > README.md
 
 git init
